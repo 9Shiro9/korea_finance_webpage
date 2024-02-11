@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: 'Pretendard Variable', 'Pretendard JP Variable', -apple-system, BlinkMacSystemFont, 'system-ui', 'Roboto', 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #222;
+}
+
+.swiper-pagination {
+  position: unset;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black;
+  width: 25px;
+  border-radius: 9999px;
+}

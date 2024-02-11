@@ -2,7 +2,6 @@ import NewsLink from "../../../components/NewsLink";
 import { selectScreen } from "../../../redux/slice/homeSlice";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import { newsDatas } from "../../../constant/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -91,7 +90,6 @@ const NewsDate = styled.p`
 
 const NewSection = () => {
   const largeScreen = useSelector(selectScreen);
-  const [id, setId] = useState("");
 
   return (
     <NewsSectionContainer >
@@ -117,12 +115,6 @@ const NewSection = () => {
               <StyledSwiperSlide key={data.id}>
                 <Link
                   to={"/"}
-                  onMouseEnter={() => {
-                    largeScreen && setId(data.id);
-                  }}
-                  onMouseLeave={() => {
-                    largeScreen && setId("false");
-                  }}
                 >
                   <ImageFigure>
                     <HoverImg

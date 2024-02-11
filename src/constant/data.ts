@@ -70,9 +70,9 @@ export const newsDatas = [
 ];
 
 export const noticeDatas = [
-  { id: id(), label: "주식등의대량보유상황보고서(약식)", date: "2024.02.06" },
-  { id: id(), label: "주식등의대량보유상황보고서(약식)", date: "2024.02.06" },
-  { id: id(), label: "주식등의대량보유상황보고서(약식)", date: "2024.02.06" },
+  { id: id(), label: "주식등의대량보유상황보고서", date: "2024.02.06" },
+  { id: id(), label: "주식등의대량보유상황보고서", date: "2024.02.06" },
+  { id: id(), label: "주식등의대량보유상황보고서", date: "2024.02.06" },
 ];
 
 export const announceDatas = [
